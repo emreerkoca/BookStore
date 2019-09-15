@@ -12,6 +12,7 @@ namespace BookStore
 
             CreateMap<Book, BookDto>();
             CreateMap<CreateUpdateBookDto, Book>();
+            CreateMap<BookDto, CreateUpdateBookDto>();
         }
     }
 }
